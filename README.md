@@ -1,11 +1,16 @@
 --------------------------
 
+**FILTER FEATURES:**
+
+--------------------------
+
+--------------------------
+
 **FILTER VERSIONS:**
 
 --------------------------
 
-- **Regular** = The normal version. Nice balance of hidden/shown items in the endgame. Perfect for beginners and experts alike.
-- **Semi-Strict** = Hides several bulky/bad rares. Designed for experienced players and speedrunners. Not recommended for beginners.
+- **Standard**: The standard filter. Basic features and color schemes are enabled. Hides "bad" rares and insignificant base items. Most "clutter" has been removed.
 - **Strict** = Hides the majority of all rares in the endgame. Designed for high-magic-find characters and cull-parties.
 - **Uber-Strict** = Crazy filtering level. It displays only the Creme de la Creme. Hides low orbs, low maps, most rares... You've been warned.
 
@@ -13,17 +18,6 @@ If you want to support the the project or show your appreciation feel free to **
 
 **NOTE:** The filter itself will always be free, including updates. There will never be any premium/donator versions or options!
 
---------------------------
-
-**STYLE VARIATIONS:**
-
---------------------------
-
-Different styles have the same filtering pattern and also have the same filter versions (seen above), but use different colors.
-
-- **Normal** = The good ol' filter.
-- **Slick** = The normal version with less background colors (more GGG-styled). Also good for colorblind players.
-- **Blue** = Mostly the same, but the rare color scheme is tuned towards blue colors.
 
 --------------------------
 
@@ -45,6 +39,6 @@ I recommend using NotePad++ to edit the filter.
 
 --------------------------
 
-For additional details, the FAQ (read it before asking questions), previous changelogs, screenshots etc. please refer to the forum thread in the POE forum ([clicky here to get there](https://www.pathofexile.com/forum/view-thread/1246208))
+([SEE THE WIKI](https://github.com/Synial/pod-lootfilter/wiki)) for additional details, screenshots, changelogs, screenshots, and complete descriptions of all changes
 
 --------------------------
