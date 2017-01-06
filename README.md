@@ -29,7 +29,7 @@
 
 1) Download the desired filter
 
-2) Extract the PoD.cfg, PoD.dll and PoD.run files into the folder that contains Path of Diablo's _DiabloII.exe_
+2) Extract the *PoD.cfg*, *PoD.dll*, and *PoD.run* files into the folder that contains _DiabloII.exe_
 
 3) Launch Diablo II
 
