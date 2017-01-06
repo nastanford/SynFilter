@@ -7,6 +7,7 @@
 * Supports the new player and new character experience - Items are only hidden when they aren't level appropriate
 * Subtle color and display adjustments have been implemented to remove decision making from the looting process
 * Includes optional support for simple and advanced crafting
+* [A fully functional wiki](https://github.com/Synial/pod-lootfilter/wiki) outlining every available customization option
 
 --------------------------
 
