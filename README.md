@@ -40,6 +40,6 @@
 
 --------------------------
 
-SEE THE WIKI(https://github.com/Synial/pod-lootfilter/wiki) for additional details, screenshots, changelogs, and complete descriptions of all changes
+[SEE THE WIKI](https://github.com/Synial/pod-lootfilter/wiki) for additional details, screenshots, changelogs, and complete descriptions of all changes
 
 --------------------------
