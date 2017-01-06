@@ -2,7 +2,7 @@
 
 --------------------------
 
-* A fully customizable filter that natively supports nearly every item in the game (*modifications can be made within seconds*)
+* A fully customizable filter that natively supports every item in the game (*modifications can be made in seconds*)
 * Hides items that have no use when playing in endgame content 
 * Supports the new player and new character experience - Items are only hidden when they aren't level appropriate
 * Subtle color and display adjustments have been implemented to remove decision making from the looting process
