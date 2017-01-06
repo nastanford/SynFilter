@@ -27,15 +27,15 @@
 
 --------------------------
 
-1) Download the desired filter.
+1) Download the desired filter
 
 2) Extract the PoD.cfg, PoD.dll and PoD.run files into the folder that contains your PoD DiabloII.exe
 
-3) Launch Diablo II.
+3) Launch Diablo II
 
 4) Run the PoD Injector
 
-5) Inject the program into your running Diablo II game.
+5) Inject the program into the Diablo II client
 
 6) Enjoy!
 
