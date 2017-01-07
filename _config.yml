@@ -256,3 +256,5 @@ linters:
 
   Compass::*:
     enabled: false
+
+theme: jekyll-theme-cayman
