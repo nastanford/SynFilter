@@ -1,5 +1,3 @@
 This folder contains files used during production of this filter at the time of its current release.
 
-Saved only for backwards compatability incase of issues with any possible DLL and Launcher modifications.
-
-Not intended for use.
+Included for individuals that have compatability issues with the Launcher that might not have the current .dll or podqol.exe.
