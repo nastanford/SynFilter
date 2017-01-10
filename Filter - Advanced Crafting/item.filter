@@ -4,17 +4,6 @@
 //For questions, comments, feedback, or suggestions:
 //Contact on reddit: /u/-synial-
 
-//CONFIG
-Show Ethereal: True, None
-Show Sockets: True, None
-Show iLvl: True, None
-Show Rune Numbers: True, None
-Alt Item Style: True, None
-Color Mod: False, None
-Shorten Item Names:	False, None
-Custom Loot Filter: True, None
-//Allow Unknown Items: True, None
-
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -46,10 +35,10 @@ ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic
-ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic
-ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic
-ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic
+ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 1]
+ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 2]
+ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
+ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
