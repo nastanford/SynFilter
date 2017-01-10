@@ -5,20 +5,6 @@
 //Contact on reddit: /u/-synial-
 
 
-//CONFIG
-Show Ethereal: True, None
-Show Sockets: True, None
-Show iLvl: True, None
-Show Rune Numbers: True, None
-Alt Item Style: True, None
-Color Mod: False, None
-Shorten Item Names:	False, None
-Custom Loot Filter: True, None
-//Allow Unknown Items: True, None
-
-
-
-
 //Basics
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<2000]:
