@@ -35,10 +35,10 @@ ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic
-ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic
-ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic
-ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic
+ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 1]
+ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 2]
+ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
+ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
