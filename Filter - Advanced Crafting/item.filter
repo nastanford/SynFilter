@@ -44,8 +44,12 @@ ItemDisplay[tes]: Suffering [Andariel]
 ItemDisplay[ceh]: Hatred [Mephisto]
 ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
-//Orb of Corruption
+//PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
+ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic
+ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic
+ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic
+ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
