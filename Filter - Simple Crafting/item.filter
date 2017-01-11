@@ -1,4 +1,5 @@
-﻿//SynFilter: An Item Filter for the Path of Diablo Mod
+﻿
+//SynFilter: An Item Filter for the Path of Diablo Mod
 //Version: Simple Crafting 
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
@@ -36,8 +37,8 @@ ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 1]
-ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 2]
+ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
+ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 1]
 ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
 ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 //Wirt's Leg
@@ -432,9 +433,9 @@ ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt
 //Wyrmhide Boots
 ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots
 //Demonhide Boots
-//ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
+ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
 //Boots
-//ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
+ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
 //
 
 
@@ -647,7 +648,6 @@ ItemDisplay[NMAG SOCK=3 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK>1 ltp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 ltp]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=1 ltp]:
-ItemDisplay[NMAG ILVL>74]:
 //2soc 3soc Mage Plate 
 ItemDisplay[NMAG SOCK=>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=3 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
@@ -1660,4 +1660,5 @@ ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]: %NAME% %[SOCKETS]%
 ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[ETH SOCK=0]: ETH %NAME%
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG ILVL>74]:
 //ItemDisplay[]: %NAME% [%CODE%]
