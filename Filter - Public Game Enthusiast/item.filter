@@ -1,4 +1,5 @@
-﻿//SynFilter: An Item Filter for the Path of Diablo Mod
+﻿
+//SynFilter: An Item Filter for the Path of Diablo Mod
 //Version: Public Game Enthusiast
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
@@ -34,8 +35,8 @@ ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 1]
-ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 2]
+ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
+ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 1]
 ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
 ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 //Wirt's Leg
