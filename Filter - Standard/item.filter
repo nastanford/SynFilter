@@ -431,10 +431,10 @@ ItemDisplay[MAG zmb ILVL>84]: %BLUE%%NAME%
 //Caster Boots + Thul + Amethyst + Jewel
 //Wyrmhide Boots
 ItemDisplay[MAG ulb ILVL>84]: %BLUE%%NAME%
-Demonhide Boots
-//ItemDisplay[MAG xlb ILVL>84]: %BLUE%%NAME%
-Boots
-//ItemDisplay[MAG lbt ILVL>84]: %BLUE%%NAME%
+//Demonhide Boots
+ItemDisplay[MAG xlb ILVL>84]: %BLUE%%NAME%
+//Boots
+ItemDisplay[MAG lbt ILVL>84]: %BLUE%%NAME%
 //
 
 
