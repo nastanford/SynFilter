@@ -683,8 +683,7 @@ ItemDisplay[NMAG SOCK=3 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 ltp]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=1 ltp]:
 //2soc 3soc Mage Plate 
-ItemDisplay[NMAG SOCK=>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK=>1 xtp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 xtp]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=1 xtp]:
