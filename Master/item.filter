@@ -1,5 +1,6 @@
 ﻿
 //SynFilter: An Item Filter for the Path of Diablo Mod
+//Version: Advanced Crafting
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
 //Contact on reddit: /u/-synial-
@@ -1041,10 +1042,6 @@ ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK263>0) !SOCK=1]: %NAME% %RED%[%S
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
 
 
-//35k vendor 1x2
-ItemDisplay[MAG NMAG !UNI !SET 7bk]: %YELLOW% 35000 gold
-
-
 //Inferior Items
 ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
 ItemDisplay[INF !RW !leg]:
@@ -1064,7 +1061,7 @@ ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]: %NAME%
 ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:
 ItemDisplay[ILVL>25 NORM MAG (ARMOR OR WEAPON) ID]: %NAME%
 ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]: %NAME%
-ItemDisplay[ILVL>35 !ID NORM RARE (ARMOR OR WEAPON)]:
+ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
 ItemDisplay[ILVL<31 EXC MAG WEAPON !ID]: %NAME%
 ItemDisplay[ILVL>30 !ID EXC MAG WEAPON !ID ]: 
 ItemDisplay[ILVL>30 EXC MAG WEAPON ID]: %NAME%
