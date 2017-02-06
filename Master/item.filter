@@ -837,6 +837,8 @@ ItemDisplay[amb SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[6cb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[6s7 NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 
 //Last Wish
 //6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
