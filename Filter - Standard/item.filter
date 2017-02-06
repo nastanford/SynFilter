@@ -658,18 +658,20 @@ ItemDisplay[uar NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 ItemDisplay[utp NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 
 //2soc 3soc Light Plate
-ItemDisplay[NMAG SOCK>1 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK>1 xtp]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK>1 ltp]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[NMAG SOCK>1 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[NMAG SOCK=3 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK>1 ltp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 ltp]: %NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=1 ltp]:
+//ItemDisplay[NMAG SOCK=1 ltp]:
 //2soc 3soc Mage Plate 
-ItemDisplay[NMAG SOCK=>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[NMAG SOCK=>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[NMAG SOCK=3 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK=>1 xtp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 xtp]: %NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=1 xtp]:
-ItemDisplay[NMAG xtp ILVL>79]:
+//ItemDisplay[NMAG SOCK=1 xtp]:
+//ItemDisplay[NMAG xtp ILVL>79]:
 
 
 
@@ -761,6 +763,19 @@ ItemDisplay[NMAG ETH 7pa SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[NMAG ETH 7h7 SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[NMAG ETH 7wc SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
+//5pole//
+ItemDisplay[NMAG ETH SOCK=5 7vo]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7s8]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7pa]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7h7]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7wc]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+//
+ItemDisplay[NMAG !ETH SOCK=5 7vo]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7s8]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7pa]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7h7]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 
 //ETH Shillelah Larzuk, 4os ETH Shillelah = INSIGHT
 ItemDisplay[6bs ETH SOCK=0 !SUP]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -809,6 +824,8 @@ ItemDisplay[amb SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[6cb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[6s7 NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 
 //Last Wish
 //6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
