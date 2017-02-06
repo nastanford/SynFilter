@@ -677,17 +677,17 @@ ItemDisplay[uar NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 ItemDisplay[utp NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 
 //2soc 3soc Light Plate
-ItemDisplay[NMAG SOCK>1 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 ltp ILVL<75]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK>1 ltp ]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 ltp ]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK>1 ltp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 ltp]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=1 ltp]:
 //2soc 3soc Mage Plate 
-ItemDisplay[NMAG SOCK>1 xtp ILVL<80]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK>1 xtp]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[NMAG SOCK=>1 xtp]: %NAME% [%SOCKETS%]
 //ItemDisplay[NMAG SOCK=3 xtp]: %NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=1 xtp]:
-ItemDisplay[NMAG xtp ILVL>79]:
+//ItemDisplay[NMAG SOCK=1 xtp]:
+//ItemDisplay[NMAG xtp ILVL>79]:
 
 
 
@@ -776,6 +776,19 @@ ItemDisplay[ETH 7h7 NMAG !SUP SOCK=0]: %DGREEN%ETH %NAME%
 ItemDisplay[ETH 7wc NMAG !SUP SOCK=0]: %DGREEN%ETH %NAME%
 //
 
+//5pole//
+ItemDisplay[NMAG ETH SOCK=5 7vo]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7s8]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7pa]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7h7]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7wc]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+//
+ItemDisplay[NMAG !ETH SOCK=5 7vo]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7s8]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7pa]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7h7]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 
 //ETH Shillelah Larzuk, 4os ETH Shillelah = INSIGHT
 ItemDisplay[6bs ETH SOCK=0 !SUP]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -833,8 +846,11 @@ ItemDisplay[7gm !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 
 //Lawbringer
-ItemDisplay[7cr ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7cr NMAG SOCK=3]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[72h ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[7ls NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 
 //Oath
 ItemDisplay[7wa ETH NMAG SOCK=4]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
@@ -1469,7 +1485,7 @@ ItemDisplay[NMAG !RW ILVL>14 SOCK=1 7vo]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=2 7vo]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=3 7vo]:
 //ItemDisplay[NMAG !RW ILVL>14 SOCK=4 7vo]:
-ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7vo]:
+ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7vo]: 
 ItemDisplay[NMAG !RW ILVL>14 SOCK=6 7vo]:
 //ItemDisplay[NMAG !RW ILVL>14 scy]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=0 scy]:
@@ -1791,7 +1807,7 @@ ItemDisplay[NMAG EQ6 !RW ILVL>14]:
 ItemDisplay[NMAG ci0 !RW ILVL>14]:
 ItemDisplay[NMAG ci1 !RW ILVL>14]:
 ItemDisplay[NMAG ci2 !RW ILVL>14]:
-ItemDisplay[NMAG ci3 !RW ILVL>14]:
+ItemDisplay[NMAG ci3 !RW ILVL>14]: %NAME%
 //
 //Class Items (Paladin Shields, Assassin Claws, Amazon Weapons, Necromancer Heads
 //Druid Pelts
