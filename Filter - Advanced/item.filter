@@ -828,8 +828,12 @@ ItemDisplay[7cr NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Uncommon Runewords
 
 //Breath of the Dying = BotD
-ItemDisplay[7wa ETH NMAG SOCK=0 SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gd ETH NMAG SOCK=0 SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
 
 
 //Death
@@ -1466,7 +1470,7 @@ ItemDisplay[NMAG !RW ILVL>14 9st]:
 ItemDisplay[NMAG !RW ILVL>14 7st]:
 ItemDisplay[NMAG !RW ILVL>14 pik]:
 ItemDisplay[NMAG !RW ILVL>14 9p9]:
-ItemDisplay[NMAG !RW ILVL>14 7p7]:
+//ItemDisplay[NMAG !RW ILVL>14 7p7]:
 
 //Polearm
 ItemDisplay[NMAG !RW ILVL>14 bar]:
