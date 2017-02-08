@@ -676,20 +676,14 @@ ItemDisplay[uul NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 ItemDisplay[uar NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 ItemDisplay[utp NMAG !SUP SOCK>1]: %NAME% [%SOCKETS%]
 
-//2soc 3soc Light Plate
-ItemDisplay[NMAG SOCK>1 ltp ]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 ltp ]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-//ItemDisplay[NMAG SOCK>1 ltp]: %NAME% [%SOCKETS%]
-//ItemDisplay[NMAG SOCK=3 ltp]: %NAME% [%SOCKETS%]
+//0soc 2soc 3soc Light Plate
+ItemDisplay[NMAG SOCK>1 ltp]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=0 ltp]: %NAME%
 ItemDisplay[NMAG SOCK=1 ltp]:
-//2soc 3soc Mage Plate 
+//0 soc 2soc 3soc Mage Plate 
 ItemDisplay[NMAG SOCK>1 xtp]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-//ItemDisplay[NMAG SOCK=>1 xtp]: %NAME% [%SOCKETS%]
-//ItemDisplay[NMAG SOCK=3 xtp]: %NAME% [%SOCKETS%]
-//ItemDisplay[NMAG SOCK=1 xtp]:
-//ItemDisplay[NMAG xtp ILVL>79]:
-
-
+ItemDisplay[NMAG SOCK=0 xtp]: %NAME%
+ItemDisplay[NMAG SOCK=1 xtp]:
 
 //Shields
 //4os Monarch, 10+ed Monarch 4os, Monarch
@@ -776,7 +770,7 @@ ItemDisplay[ETH 7h7 NMAG !SUP SOCK=0]: %DGREEN%ETH %NAME%
 ItemDisplay[ETH 7wc NMAG !SUP SOCK=0]: %DGREEN%ETH %NAME%
 //
 
-//5pole//
+//5 socket polearms//
 ItemDisplay[NMAG ETH SOCK=5 7vo]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=5 7s8]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=5 7pa]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
@@ -817,8 +811,6 @@ Itemdisplay[fla NMAG SOCK=0 ILVL>25]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
 //5os Phase Blade, Zerker Axe = Grief
 ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=5]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[7ls NMAG ILVL>14 SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 //Silence
 ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=6]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -861,8 +853,12 @@ ItemDisplay[7gm !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[7cr NMAG SOCK=3]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[72h ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[7ls NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7bs ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7bs NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wd ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7wd NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 
 //Oath
@@ -1069,7 +1065,6 @@ ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK258>0) !SOCK=1]: %NAME% %RED%[%S
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2 AND SK263>0) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG (SK271>2 AND SK276>2) !SOCK=1]: %NAME% %RED%[%SOCKETS%]
 
-
 //Inferior Items
 ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
 ItemDisplay[INF !RW !leg]:
@@ -1090,6 +1085,7 @@ ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:
 ItemDisplay[ILVL>25 NORM MAG (ARMOR OR WEAPON) ID]: %NAME%
 ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]: %NAME%
 ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
+ItemDisplay[ILVL>65 !ID EXC RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
 ItemDisplay[ILVL<31 EXC MAG WEAPON !ID]: %NAME%
 ItemDisplay[ILVL>30 !ID EXC MAG WEAPON !ID ]: 
 ItemDisplay[ILVL>30 EXC MAG WEAPON ID]: %NAME%
@@ -1127,6 +1123,10 @@ ItemDisplay[RARE CL7 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
+//Merc Rares
+ItemDisplay[RARE WP3 !ID ILVL>65]: %NAME%
+ItemDisplay[RARE WP7 !ID ILVL>65]: %NAME%
+ItemDisplay[RARE WP8 !ID ILVL>65]: %NAME%
 //
 //!DISABLED! Show ALL Rare ELITE Weapons !DISABLED!
 //ItemDisplay[RARE ELT WEAPON !ID]: %YELLOW%%NAME%
@@ -1135,12 +1135,12 @@ ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
 ItemDisplay[RARE WP1 !ID ILVL>65]:
 ItemDisplay[RARE WP2 !ID ILVL>65]:
-ItemDisplay[RARE WP3 !ID ILVL>65]:
+//ItemDisplay[RARE WP3 !ID ILVL>65]:
 ItemDisplay[RARE WP4 !ID ILVL>65]:
 ItemDisplay[RARE WP5 !ID ILVL>65]:
 ItemDisplay[RARE WP6 !ID ILVL>65]:
-ItemDisplay[RARE WP7 !ID ILVL>65]:
-ItemDisplay[RARE WP8 !ID ILVL>65]:
+//ItemDisplay[RARE WP7 !ID ILVL>65]:
+//ItemDisplay[RARE WP8 !ID ILVL>65]:
 ItemDisplay[RARE WP9 !ID ILVL>65]:
 ItemDisplay[RARE WP10 !ID ILVL>65]:
 //Armor: Helm (Not Circlet), Body, Shield (ilvl 66+)
@@ -1820,7 +1820,9 @@ ItemDisplay[NMAG EQ6 !RW ILVL>14]:
 ItemDisplay[NMAG ci0 !RW ILVL>14]:
 ItemDisplay[NMAG ci1 !RW ILVL>14]:
 ItemDisplay[NMAG ci2 !RW ILVL>14]:
-ItemDisplay[NMAG ci3 !RW ILVL>14]: %NAME%
+//diadem
+ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK=0]: %NAME%
+ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK>0]:
 //
 //Class Items (Paladin Shields, Assassin Claws, Amazon Weapons, Necromancer Heads
 //Druid Pelts
