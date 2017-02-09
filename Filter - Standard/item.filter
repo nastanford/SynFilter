@@ -768,11 +768,18 @@ ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //end-game 2h swords
 ItemDisplay[NMAG ETH SOCK=6 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=6 7gs]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=5 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=5 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7gs]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7gs]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=0 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=0 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=0 7gs]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=0 7fb]: %NAME%
+ItemDisplay[NMAG !ETH SOCK=0 7gs]: %NAME%
 ItemDisplay[NMAG !ETH SOCK=0 7gd]: %NAME%
 
 //ETH Shillelah Larzuk, 4os ETH Shillelah = INSIGHT
