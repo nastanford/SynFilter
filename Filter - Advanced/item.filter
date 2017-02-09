@@ -1,10 +1,12 @@
 ﻿
 //SynFilter: An Item Filter for the Path of Diablo Mod
-//Version: Advanced Crafting
+//Filter: Advanced
+//Version: 1.3.3
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: Synial#0688
 //Contact on reddit: /u/-synial-
+
 
 
 //Basics
@@ -360,21 +362,21 @@ ItemDisplay[SET]: %NAME%
 
 
 //Amulets
-ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 95+]
+ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
-ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 93+]
+ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
 ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
-ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 91+]
+ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
 ItemDisplay[MAG amu ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 90+]
-ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 89+]
+ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 90+]
 ItemDisplay[MAG amu ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 88+]
-ItemDisplay[MAG amu ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 87+]
+ItemDisplay[MAG amu ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 88+]
 ItemDisplay[MAG amu ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 86+]
-ItemDisplay[MAG amu ILVL=95]: %BLUE%%NAME%%ORANGE% [CLVL 85+]
+ItemDisplay[MAG amu ILVL=95]: %BLUE%%NAME%%ORANGE% [CLVL 86+]
 ItemDisplay[MAG amu ILVL=96]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[MAG amu ILVL=97]: %BLUE%%NAME%%ORANGE% [CLVL 83+]
+ItemDisplay[MAG amu ILVL=97]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
 ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
-ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 81+]
+ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Rings
@@ -784,6 +786,13 @@ ItemDisplay[NMAG !ETH SOCK=5 7pa]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=5 7h7]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
+//end-game 2h swords
+ItemDisplay[NMAG ETH SOCK=6 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=6 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=0 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=0 7fb]: %NAME%
+ItemDisplay[NMAG !ETH SOCK=0 7gd]: %NAME%
 
 //ETH Shillelah Larzuk, 4os ETH Shillelah = INSIGHT
 ItemDisplay[6bs ETH SOCK=0 !SUP]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -814,8 +823,6 @@ ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 //Silence
-ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=6]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[7ls NMAG ILVL>14 SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7cr NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 //Uncommon Runewords
@@ -839,10 +846,18 @@ ItemDisplay[amc SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[amc SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amc SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[6cb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[6s7 NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[6sw NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[6hb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[6cb NMAG SOCK=0]: %NAME%
 ItemDisplay[6s7 NMAG SOCK=0]: %NAME%
+ItemDisplay[6sw NMAG SOCK=0]: %NAME%
+ItemDisplay[6hb NMAG SOCK=0]: %NAME%
 
 //Last Wish
 //6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
@@ -854,12 +869,16 @@ ItemDisplay[7gm !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[7cr NMAG SOCK=3]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[72h ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7ls ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
-ItemDisplay[7ls NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7bs ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
-ItemDisplay[7bs NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7wd ETH NMAG ILVL>14 SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
-ItemDisplay[7wd NMAG ILVL>14 SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[72h ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls NMAG SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7bs ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7bs ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7bs NMAG SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7wd ETH NMAG SOCK=3]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7wd ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wd NMAG SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
 
 //Oath
@@ -1071,6 +1090,11 @@ ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
 ItemDisplay[INF !RW !leg]:
 //
 
+//Merc Rares
+ItemDisplay[RARE WP3 !ID ILVL>65]: %NAME%
+ItemDisplay[RARE WP7 !ID ILVL>65]: %NAME%
+ItemDisplay[RARE WP8 !ID ILVL>65]: %NAME%
+
 //New Character/Player Experience
 ItemDisplay[RARE ILVL<15]: %NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: ETH %NAME% [%SOCKETS%]
@@ -1099,8 +1123,6 @@ ItemDisplay[ILVL<66 ELT MAG ARMOR !ID]: %NAME%
 ItemDisplay[ILVL<66 ELT MAG ARMOR ID]: %NAME%
 ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%
 
-
-
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %YELLOW%%NAME% %YELLOW%¤ 
@@ -1124,10 +1146,6 @@ ItemDisplay[RARE CL7 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
-//Merc Rares
-ItemDisplay[RARE WP3 !ID ILVL>65]: %NAME%
-ItemDisplay[RARE WP7 !ID ILVL>65]: %NAME%
-ItemDisplay[RARE WP8 !ID ILVL>65]: %NAME%
 //
 //!DISABLED! Show ALL Rare ELITE Weapons !DISABLED!
 //ItemDisplay[RARE ELT WEAPON !ID]: %YELLOW%%NAME%
@@ -1394,7 +1412,7 @@ ItemDisplay[NMAG !RW ILVL>14 SOCK=2 7fb]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=3 7fb]:
 //ItemDisplay[NMAG !RW ILVL>14 SOCK=4 7fb]:
 //ItemDisplay[NMAG !RW ILVL>14 SOCK=5 7fb]:
-ItemDisplay[NMAG !RW ILVL>14 SOCK=6 7fb]:
+//ItemDisplay[NMAG !RW ILVL>14 SOCK=6 7fb]:
 //
 ItemDisplay[NMAG !RW ILVL>14 flb]:
 ItemDisplay[NMAG !RW ILVL>14 9fb]:
