@@ -790,11 +790,13 @@ ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7h7]: ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7wc]: ETH %NAME% %YELLOW%[%SOCKETS%]
 //
-ItemDisplay[NMAG !ETH SOCK=6 7h7]: ETH %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG !ETH SOCK=6 7wc]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=6 7h7]: NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=6 7wc]: %NAME% %GRAY%[%SOCKETS%]
 //larzuk
-ItemDisplay[NMAG !ETH SOCK=0 7h7]: ETH %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG !ETH SOCK=0 7wc]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=0 7h7]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=0 7wc]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=0 7h7]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=0 7wc]: %NAME% %GRAY%[%SOCKETS%]
 
 //end-game 2h swords
 ItemDisplay[NMAG ETH SOCK=6 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
