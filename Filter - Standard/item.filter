@@ -1,12 +1,11 @@
 ﻿
 //SynFilter: An Item Filter for the Path of Diablo Mod
 //Filter: Standard
-//Version: 1.3.3b
+//Version: 1.3.3c
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: Synial#0688
-//Contact on reddit: /u/-synial-
-
+//Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -38,10 +37,14 @@ ItemDisplay[bet]: Terror [Diablo]
 ItemDisplay[fed]: Destruction [Baal]
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
-ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 1]
-ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
-ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
+//ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
+ItemDisplay[ma1]: %PURPLE%Tier 2 Relic
+//ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 1]
+ItemDisplay[ma2]: %PURPLE%Tier 1 Relic
+//ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
+ItemDisplay[ma3]: %PURPLE%Tier 3 Relic
+//ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
+ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
@@ -691,7 +694,12 @@ ItemDisplay[CL3 !ETH NMAG RES>0 SOCK=3 ILVL<76]: %DGREEN%%NAME% %GRAY%[%SOCKETS%
 ItemDisplay[CL3 !ETH NMAG RES>0 SOCK=4 ILVL<76]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[CL3 !ETH NMAG RES>30 SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
+
 //Claws
+ItemDisplay[9lw !ETH NMAG SOCK=0]: %BLUE%%NAME%
+ItemDisplay[9lw !ETH NMAG SOCK=3]: %BLUE%%NAME% [%SOCKETS%]
+ItemDisplay[7ar !ETH NMAG SOCK=0]: %BLUE%%NAME%
+ItemDisplay[7ar !ETH NMAG SOCK=3]: %BLUE%%NAME% [%SOCKETS%]
 //ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %RED%%NAME%
 //ItemDisplay[CL5 (TABSK48>2 AND SK271>2)]: %RED%%NAME%
 //ItemDisplay[CL5 (TABSK48>1 AND SK271>1)]: %RED%%NAME%
@@ -826,18 +834,20 @@ ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Uncommon Runewords
 
 //Breath of the Dying = BotD
-ItemDisplay[7wa ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7wa ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gd ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gd ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7p7 ETH NMAG SOCK=0]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7p7 ETH NMAG SOCK=6]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gm ETH NMAG SOCK=0]: ETH %NAME%
+ItemDisplay[7gm ETH NMAG SOCK=6]: ETH %NAME%
 
 
 //Death
-ItemDisplay[7wa ETH NMAG SOCK=5]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7fb ETH NMAG SOCK=5]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gd ETH NMAG SOCK=5]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=5]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7fb ETH NMAG SOCK=5]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=5]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 //Faith
 ItemDisplay[amc SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -880,9 +890,9 @@ ItemDisplay[7wd ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wd NMAG SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
 //Oath
-ItemDisplay[7wa ETH NMAG SOCK=4]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7fb ETH NMAG SOCK=4]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gd ETH NMAG SOCK=4]: %DGREEN%ETH%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=4]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7fb ETH NMAG SOCK=4]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=4]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 
 //non-magic wands with 3 skills
@@ -1674,6 +1684,9 @@ ItemDisplay[NMAG !RW ILVL>14 6rx]:
 //Low Str 3SOC Masks (NON ETH)
 ItemDisplay[NMAG SOCK=3 !ETH msk]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS%]
+//102/106 str helms for archon plate wearing delirium/dream builds (NON ETH)
+ItemDisplay[NMAG SOCK=3 !ETH usk]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 !ETH uh9]: %NAME% [%SOCKETS%]
 //Low STR LORE base - ILVL appropriate
 ItemDisplay[NMAG SOCK=2 !ETH cap ILVL<20]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH skp ILVL<20]: %NAME% [%SOCKETS%]
@@ -1840,7 +1853,9 @@ ItemDisplay[NMAG EQ5 !RW ILVL>14]:
 ItemDisplay[NMAG EQ6 !RW ILVL>14]:
 ItemDisplay[NMAG ci0 !RW ILVL>14]:
 ItemDisplay[NMAG ci1 !RW ILVL>14]:
-ItemDisplay[NMAG ci2 !RW ILVL>14]:
+//tiara
+ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK=0]: %NAME%
+ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK>0]:
 //diadem
 ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK=0]: %NAME%
 ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK>0]:
