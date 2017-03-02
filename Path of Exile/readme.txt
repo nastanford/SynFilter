@@ -1,6 +1,6 @@
 Intended for use when playing Solo Self Found.
 
-See included screenshot (ssf filter.png) for basic display settings.
+See included screenshot for basic display settings.
 
 Currently iterated to support my duelist throughout the leveling process.
 
