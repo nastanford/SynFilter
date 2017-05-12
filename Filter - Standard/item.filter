@@ -1,7 +1,7 @@
 ﻿
 //SynFilter: An Item Filter for the Path of Diablo Mod
 //Filter: Standard
-//Version: 1.3.4
+//Version: 1.3.5
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: Synial#0688
@@ -31,10 +31,11 @@ ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 //Essences (Respec Token)
-ItemDisplay[tes]: Suffering [Andariel]
-ItemDisplay[ceh]: Hatred [Mephisto]
-ItemDisplay[bet]: Terror [Diablo]
-ItemDisplay[fed]: Destruction [Baal]
+ItemDisplay[tes]: %GOLD%Suffering [Andariel]
+ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
+ItemDisplay[bet]: %GOLD%Terror [Diablo]
+ItemDisplay[fed]: %GOLD%Destruction [Baal]
+ItemDisplay[toa]: %GOLD%Token of Absolution
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 //ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
@@ -48,12 +49,13 @@ ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
-ItemDisplay[pk1]: %RED%Key of Terror
-ItemDisplay[pk2]: %RED%Key of Hate
-ItemDisplay[pk3]: %RED%Key of Destruction
-ItemDisplay[dhn]: %RED%Diablo's Horn
-ItemDisplay[bey]: %RED%Baal's Eye
-ItemDisplay[mbr]: %RED%Mephisto's Brain
+ItemDisplay[pk1]: %GOLD%Terror [Countess]
+ItemDisplay[pk2]: %GOLD%Hate [Summoner]
+ItemDisplay[pk3]: %GOLD%Destruction [Nihlathak]
+ItemDisplay[dhn]: %GOLD%Diablo's Horn
+ItemDisplay[bey]: %GOLD%Baal's Eye
+ItemDisplay[mbr]: %GOLD%Mephisto's Brain
+
 
 
 
@@ -134,7 +136,7 @@ ItemDisplay[r29]: %RED%¤ %RUNENAME% ¤
 ItemDisplay[r30]: %RED%¤ %RUNENAME% ¤
 //
 
-//misc
+//misc quest
 ItemDisplay[bbb]: %TAN%%NAME%
 ItemDisplay[ass]: %TAN%%NAME%
 ItemDisplay[bkd]: %TAN%%NAME%
@@ -777,7 +779,7 @@ ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7h7]: ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=6 7wc]: ETH %NAME% %YELLOW%[%SOCKETS%]
 //
-ItemDisplay[NMAG !ETH SOCK=6 7h7]: NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=6 7h7]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=6 7wc]: %NAME% %GRAY%[%SOCKETS%]
 //larzuk
 ItemDisplay[NMAG ETH SOCK=0 7h7]: ETH %NAME% %GRAY%[%SOCKETS%]
@@ -1099,7 +1101,43 @@ ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
 ItemDisplay[INF !RW !leg]:
 //
 
-//New Character/Player Experience
+//Leveling - New Character Experience - New Player Experience - NPE
+
+//Amazon Leveling
+
+//Non-Magic Amazon Weapons, Magic Amazon Weapons, Rare Amazon Weapons
+//ItemDisplay[!RW NMAG CL7]: %NAME%
+//ItemDisplay[!RW MAG CL7]: %NAME%
+//ItemDisplay[!RW RARE CL7]: %NAME%
+
+//Non-Magic Bows, Magic Bows, Rare Bows
+//ItemDisplay[!RW NMAG WP9]: %NAME%
+//ItemDisplay[!RW MAG WP9]: %NAME%
+//ItemDisplay[!RW RARE WP9]: %NAME%
+
+//Non-Magic Bows, Magic Bows, Rare Crossbows
+//ItemDisplay[!RW NMAG WP10]: %NAME%
+//ItemDisplay[!RW MAG WP10]: %NAME%
+//ItemDisplay[!RW RARE WP10]: %NAME%
+
+//Non-Magic Bows, Magic Bows, Rare Javelins
+//ItemDisplay[!RW NMAG WP6]: %NAME%
+//ItemDisplay[!RW MAG WP6]: %NAME%
+//ItemDisplay[!RW RARE WP6]: %NAME%
+
+//Non-Magic Bows, Magic Bows, Rare Spears
+//ItemDisplay[!RW NMAG WP7]: %NAME%
+//ItemDisplay[!RW MAG WP7]: %NAME%
+//ItemDisplay[!RW RARE WP7]: %NAME%
+
+//Assassin Leveling
+
+//Non-Magic claws, Magic claws, Rare claws
+//ItemDisplay[!RW NMAG CL5]: %NAME%
+//ItemDisplay[!RW MAG CL5]: %NAME%
+//ItemDisplay[!RW RARE CL5]: %NAME%
+
+//Leveling - Generic
 ItemDisplay[RARE ILVL<15]: %NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: ETH %NAME%
@@ -1854,6 +1892,8 @@ ItemDisplay[NMAG EQ5 !RW ILVL>14]:
 ItemDisplay[NMAG EQ6 !RW ILVL>14]:
 ItemDisplay[NMAG ci0 !RW ILVL>14]:
 ItemDisplay[NMAG ci1 !RW ILVL>14]:
+
+//Tiara Diadem Imbue Charsi
 //tiara
 ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK=0]: %NAME%
 ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK>0]:
