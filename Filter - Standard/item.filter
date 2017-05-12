@@ -235,8 +235,8 @@ ItemDisplay[UNI !ID uap]: %RED%¤ %NAME% ¤
 ItemDisplay[UNI !ID urn]: %RED%%NAME%
 //Andariel's Visage
 ItemDisplay[UNI !ID usk]: %RED%%NAME%
-//ETH Vampire Gaze
-ItemDisplay[UNI !ID ETH xh9]: %RED%¤ ETH Vampire Gaze ¤
+//Vampire Gaze
+ItemDisplay[UNI !ID xh9]: %RED%%NAME%
 //Arreat's Face
 ItemDisplay[UNI !ID baa]: %RED%%NAME%
 //Jalal's Mane
@@ -248,10 +248,10 @@ ItemDisplay[SET !ID xhm]: %NAME% %RED%¤
 
 
 //Armor
-//ETH Duriel's Shell
-ItemDisplay[UNI !ID ETH xrs]: %RED%ETH Duriel's Shell
+//Duriel's Shell
+ItemDisplay[UNI !ID xrs]: %RED% %NAME%
 //ETH Shaftstop 
-ItemDisplay[UNI !ID ETH xhn]: %RED%ETH Shaftstop
+ItemDisplay[UNI !ID xhn]: %RED%%NAME%
 //Tyrael's Might
 ItemDisplay[UNI !ID uar]: %RED%¤ %NAME% ¤
 //Guardian Angel
@@ -285,7 +285,7 @@ ItemDisplay[UNI !ID xtb]: %RED%¤ %NAME% ¤
 //Shadow Dancer
 ItemDisplay[UNI !ID uhb]: %RED%%NAME%
 //ETH Sandstorm Trek
-ItemDisplay[UNI ETH !ID uvb]: %RED%¤ ETH Sandstorm Trek ¤
+ItemDisplay[UNI ETH !ID uvb]: %RED%¤ ETH %NAME% ¤
 
 //Weapons
 //Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
@@ -299,7 +299,7 @@ ItemDisplay[UNI !ID 6lw]: %RED%%NAME%
 //Reaper's Toll
 ItemDisplay[UNI !ID 7s8]: %RED%%NAME%
 //ETH Reaper's Toll
-ItemDisplay[UNI ETH !ID 7s8]: %RED%¤ ETH Reaper's Toll ¤
+ItemDisplay[UNI !ID 7s8]: %RED%%NAME%
 //Lacerator
 ItemDisplay[UNI !ID 7b8]: %RED%%NAME%
 //Azurewrath
@@ -321,8 +321,10 @@ ItemDisplay[UNI !ID pa9]: %RED%%NAME%
 ItemDisplay[UNI !ID nef]: %RED%%NAME%
 //Medusa's Gaze
 ItemDisplay[UNI !ID uow]: %RED%%NAME%
+//Alma Negra
+ItemDisplay[UNI !ID pac]: %RED%%NAME%
 //Radament's Sphere
-ItemDisplay[UNI !ID xts]: %RED%%NAME%
+ItemDisplay[UNI !ID xts]: %RED%¤ %NAME% ¤
 
 //Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %RED%%NAME% ¤
