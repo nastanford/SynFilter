@@ -333,6 +333,8 @@ ItemDisplay[UNI !ID pa9]: %RED%%NAME%
 ItemDisplay[UNI !ID nef]: %RED%%NAME%
 //Medusa's Gaze
 ItemDisplay[UNI !ID uow]: %RED%%NAME%
+//Alma Negra
+ItemDisplay[UNI !ID pac]: %RED%%NAME%
 //Radament's Sphere
 ItemDisplay[UNI !ID xts]: %RED%¤ %NAME% ¤
 
