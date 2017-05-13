@@ -1,11 +1,16 @@
-﻿
-//SynFilter: An Item Filter for the Path of Diablo Mod
+﻿//SynFilter: An Item Filter for the Path of Diablo Mod
 //Filter: Advanced
 //Version: 1.3.5
 //Created by: Synial
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: Synial#0688
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
+
+ItemDisplay[CL4 SOCK=0 SK67>0]: %NAME%
+ItemDisplay[CL4 SOCK=2 SK67>0]: %NAME%
+ItemDisplay[CL4 SOCK=0 SK84>0]: %NAME%
+ItemDisplay[CL4 SOCK=2 SK84>0]: %NAME%
+
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -46,6 +51,7 @@ ItemDisplay[ma2]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma3]: %PURPLE%Tier 3 Relic
 //ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
+ItemDisplay[cx6]: %RED% %NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
