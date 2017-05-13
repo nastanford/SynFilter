@@ -51,7 +51,8 @@ ItemDisplay[ma2]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma3]: %PURPLE%Tier 3 Relic
 //ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
-ItemDisplay[cx6]: %RED% %NAME%
+ItemDisplay[cx6]: %PURPLE%%NAME%
+ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
@@ -102,17 +103,17 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 
 //RUNES
 //1-16
-ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r01]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r02]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r03]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r02]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r03]: %GRAY%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r01]: %TAN%%RUNENAME% 
+ItemDisplay[r02]: %TAN%%RUNENAME% 
+ItemDisplay[r03]: %TAN%%RUNENAME% 
+ItemDisplay[r02]: %GRAY%%RUNENAME%
+ItemDisplay[r03]: %GRAY%%RUNENAME%
 ItemDisplay[r04]: %ORANGE%Nef [B Gloves]
-ItemDisplay[r05 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r05]: %TAN%%RUNENAME% [%RUNENUM%]
+ItemDisplay[r05 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r05]: %TAN%%RUNENAME% 
 ItemDisplay[r06]: %ORANGE%Ith [C Belt]
 ItemDisplay[r07]: %ORANGE%Tal [B Belt]
 ItemDisplay[r08]: %ORANGE%Ral [C Amulet]
@@ -120,33 +121,33 @@ ItemDisplay[r09]: %ORANGE%Ort [HP Gloves]
 ItemDisplay[r10]: %ORANGE%Thul [S Amulet]
 ItemDisplay[r11]: %ORANGE%Amn [C Ring]
 ItemDisplay[r12]: %ORANGE%Sol [B Ring]
-ItemDisplay[r13 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r14 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r15 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r16 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r15]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r13 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r14 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r15 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r16 CLVL>86]: %GRAY%%RUNENAME% 
+ItemDisplay[r13]: %TAN%%RUNENAME% 
+ItemDisplay[r14]: %TAN%%RUNENAME% 
+ItemDisplay[r15]: %TAN%%RUNENAME% 
+ItemDisplay[r16]: %TAN%%RUNENAME% 
 //17-23
-ItemDisplay[r17]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r18]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r19]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r20]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r21]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r22]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r23]: %TAN%%RUNENAME% [%RUNENUM%]
+ItemDisplay[r17]: %TAN%%RUNENAME%
+ItemDisplay[r18]: %TAN%%RUNENAME%
+ItemDisplay[r19]: %TAN%%RUNENAME% 
+ItemDisplay[r20]: %TAN%%RUNENAME% 
+ItemDisplay[r21]: %TAN%%RUNENAME% 
+ItemDisplay[r22]: %TAN%%RUNENAME% 
+ItemDisplay[r23]: %TAN%%RUNENAME%
 //24-33
-ItemDisplay[r24]: %RED%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r25]: %RED%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r26]: %RED%%RUNENAME% [%RUNENUM%]
-//ItemDisplay[r27]: %RED%%RUNENAME% [%RUNENUM%]
-//ItemDisplay[r28]: %RED%%RUNENAME% [%RUNENUM%]
-//ItemDisplay[r29]: %RED%%RUNENAME% [%RUNENUM%]
-//ItemDisplay[r30]: %RED%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r31]: %RED%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r32]: %RED%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r33]: %RED%%RUNENAME% [%RUNENUM%]
+ItemDisplay[r24]: %RED%%RUNENAME%
+ItemDisplay[r25]: %RED%%RUNENAME%
+ItemDisplay[r26]: %RED%%RUNENAME%
+//ItemDisplay[r27]: %RED%%RUNENAME%
+//ItemDisplay[r28]: %RED%%RUNENAME%
+//ItemDisplay[r29]: %RED%%RUNENAME%
+//ItemDisplay[r30]: %RED%%RUNENAME% 
+ItemDisplay[r31]: %RED%%RUNENAME%
+ItemDisplay[r32]: %RED%%RUNENAME%
+ItemDisplay[r33]: %RED%%RUNENAME%
 //High Value Runes (3.0+)
 ItemDisplay[r27]: %RED%¤ %RUNENAME% ¤
 ItemDisplay[r28]: %RED%¤ %RUNENAME% ¤
