@@ -46,6 +46,7 @@ ItemDisplay[ma2]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma3]: %PURPLE%Tier 3 Relic
 //ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
 ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
+ItemDisplay[cx6]: %RED% %NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
