@@ -285,8 +285,8 @@ ItemDisplay[ETH SET !ID uar]: ETH %NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID uvg]: %NAME% %RED%¤
 ItemDisplay[ETH UNI !ID uvg]: ETH %NAME% %RED%¤
 //Steelrend
-ItemDisplay[!ETH UNI !ID uhg]: %NAME% %RED%¤
-ItemDisplay[ETH UNI !ID uhg]: ETH %NAME% %RED%¤
+//ItemDisplay[!ETH UNI !ID uhg]: %NAME% %RED%¤
+//ItemDisplay[ETH UNI !ID uhg]: ETH %NAME% %RED%¤
 
 //Belts
 //Arachnid Mesh
@@ -311,10 +311,13 @@ ItemDisplay[ETH UNI !ID zhb]: ETH %NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID xtb]: %RED%¤ %NAME% ¤
 ItemDisplay[ETH UNI !ID xtb]: ETH %NAME% %RED%¤
 //Shadow Dancer
-ItemDisplay[!ETH UNI !ID uhb]: %NAME%
+//ItemDisplay[!ETH UNI !ID uhb]: %NAME%
 ItemDisplay[ETH UNI !ID uhb]: ETH %NAME% %RED%¤
 //ETH Sandstorm Trek
 ItemDisplay[UNI ETH !ID uvb]: ETH %NAME% %RED%¤
+//Aldur's
+ItemDisplay[!ETH SET !ID xtb]: %NAME% %RED%¤
+ItemDisplay[ETH SET !ID xtb]: ETH %NAME% %RED%¤
 
 //Weapons
 //Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
@@ -338,8 +341,8 @@ ItemDisplay[ETH UNI !ID 7b8]: ETH %NAME% %RED%¤
 ItemDisplay[!ETH UNI !ID 7cr]: %NAME% %RED%¤
 ItemDisplay[ETH UNI !ID 7cr]: ETH %NAME% %RED%¤
 //Tombreaver
-ItemDisplay[!ETH UNI !ID 7pa]: %NAME% %RED%¤
-ItemDisplay[ETH UNI !ID 7pa]: ETH %NAME% %RED%¤
+//ItemDisplay[!ETH UNI !ID 7pa]: %NAME% %RED%¤
+//ItemDisplay[ETH UNI !ID 7pa]: ETH %NAME% %RED%¤
 //Titan's Revenge
 ItemDisplay[!ETH UNI !ID ama]: %NAME% %RED%¤
 ItemDisplay[ETH UNI !ID ama]: ETH %NAME% %RED%¤
@@ -894,20 +897,20 @@ ItemDisplay[7gi ETH NMAG SOCK=5]: ETH %NAME% [%SOCKETS%]
 //Faith
 ItemDisplay[amc SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[amb SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[amb SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[amc SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[amb SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[amc SOCK=4 NMAG TABSK0<3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[amc SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[amb SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[amb SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[amc SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[6cb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[6s7 NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[6sw NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[6hb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[6cb NMAG SOCK=0]: %NAME%
-ItemDisplay[6s7 NMAG SOCK=0]: %NAME%
-ItemDisplay[6sw NMAG SOCK=0]: %NAME%
-ItemDisplay[6hb NMAG SOCK=0]: %NAME%
+//ItemDisplay[amb SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[amc SOCK=0 NMAG TABSK0<3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+//ItemDisplay[6cb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[6s7 NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[6sw NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[6hb NMAG SOCK=4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[6cb NMAG SOCK=0]: %NAME%
+//ItemDisplay[6s7 NMAG SOCK=0]: %NAME%
+//ItemDisplay[6sw NMAG SOCK=0]: %NAME%
+//ItemDisplay[6hb NMAG SOCK=0]: %NAME%
 
 
 //Last Wish
