@@ -1,0 +1,25 @@
+Filters in the assassin folder add filtation to the top lines of the filter you would be normally using.
+This code will show weapons used by martial arts skills.
+
+//Assassin Leveling
+//Shows magical and rare martial arts weapons, sorted by tier (Normal/Exceptional/Elite) and their appropriate item levels
+
+//Magic Claws
+ItemDisplay[ILVL>0 ILVL<35 NORM MAG CL5]: %NAME%
+ItemDisplay[ILVL>34 ILVL<66 EXC MAG CL5]: %NAME%
+ItemDisplay[ELT MAG CL5]: %NAME%
+
+//Rare Claws
+ItemDisplay[ILVL>0 ILVL<35 NORM RARE CL5]: %NAME%
+ItemDisplay[ILVL>34 ILVL<66 EXC RARE CL5]: %NAME%
+ItemDisplay[ELT RARE CL5]: %NAME%
+
+//Magic Daggers
+ItemDisplay[ILVL>0 ILVL<35 NORM MAG WP4]: %NAME%
+ItemDisplay[ILVL>34 ILVL<66 EXC MAG WP4]: %NAME%
+ItemDisplay[ELT MAG WP4]: %NAME%
+
+//Rare Claws
+ItemDisplay[ILVL>0 ILVL<35 NORM RARE WP4]: %NAME%
+ItemDisplay[ILVL>34 ILVL<66 EXC RARE WP4]: %NAME%
+ItemDisplay[ELT RARE WP4]: %NAME%
