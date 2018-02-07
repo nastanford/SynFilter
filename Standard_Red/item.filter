@@ -16,7 +16,7 @@ ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp4]: %BLUE%!%WHITE%M
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
-ItemDisplay[rvs CLVL>65]: 
+ItemDisplay[rvs CLVL>65]: %PURPLE%r %WHITE%35%
 ItemDisplay[rvs CLVL<66]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
@@ -40,6 +40,8 @@ ItemDisplay[toa]: %GOLD%Token of Absolution
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
 ItemDisplay[cx7]: %PURPLE%%NAME%
+ItemDisplay[cx8]: %PURPLE%%NAME%
+ItemDisplay[cx9]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma2]: %PURPLE%%NAME%
